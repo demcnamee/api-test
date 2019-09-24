@@ -1,2 +1,2 @@
 # api-test
-npm test to execute
+"npm test" to execute
