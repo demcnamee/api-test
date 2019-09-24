@@ -6,7 +6,7 @@ const status = 'available';
 describe('get pets', () => {
     it('should find pets by status', async () => {
         const response = await fetch(rootApi + 'findByStatus?status=' + status );
-        await response.json();
-        expect();
+        await response;
+        chai.expect(response.status).to.equal(200);
     });
 });
